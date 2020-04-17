@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconpack-idus';
-  src:  url('fonts/iconpack-idus.eot?rxgh9b');
-  src:  url('fonts/iconpack-idus.eot?rxgh9b#iefix') format('embedded-opentype'),
-    url('fonts/iconpack-idus.ttf?rxgh9b') format('truetype'),
-    url('fonts/iconpack-idus.woff?rxgh9b') format('woff'),
-    url('fonts/iconpack-idus.svg?rxgh9b#iconpack-idus') format('svg');
+  src:  url('fonts/iconpack-idus.eot?mx9l2t');
+  src:  url('fonts/iconpack-idus.eot?mx9l2t#iefix') format('embedded-opentype'),
+    url('fonts/iconpack-idus.ttf?mx9l2t') format('truetype'),
+    url('fonts/iconpack-idus.woff?mx9l2t') format('woff'),
+    url('fonts/iconpack-idus.svg?mx9l2t#iconpack-idus') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,22 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ui_icon--check:before {
+  content: "\e934";
+}
+.ui_icon--bulb:before {
+  content: "\e935";
+}
+.ui_icon--question-circ .path1:before {
+  content: "\e932";
+  color: rgb(51, 51, 51);
+}
+.ui_icon--question-circ .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.99;
+}
 .ui_icon--star-outline:before {
   content: "\e91c";
 }
